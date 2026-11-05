@@ -2,20 +2,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
+package com.mycompany.biblioteca;
 
 /**
  *
  * @author Estudiante
  */
 public class Libro extends Material {
-    
     public Libro(String codigo,String titulo){
-    super(codigo,titulo);
+        super(codigo,titulo);
     }
-
-    @Override
-    public int diasPrestamo() {
-        return 7;
+     @Override
+    public int diasPrestamo(){
+        return 3;
     }
     
 }
